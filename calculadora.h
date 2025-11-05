@@ -21,4 +21,11 @@ int multiplicar(int a, int b);
 * @return Devuelve 0 si el divisor es 0.
 */
 int dividir(int a, int b);
+/**
+* @brief Calcula la potencia de un número entero.
+* @param base Número base.
+* @param exponente Exponente (entero no negativo).
+* @return El resultado de base elevado a exponente.
+*/
+int potencia(int base, int exponente);
 #endif
